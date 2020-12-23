@@ -15,21 +15,17 @@
 
 ### 1.用户设置
 
-![](https://s3.ax1x.com/2020/12/23/r6nvNT.png)
-
-![r6nvNT.png](https://s3.ax1x.com/2020/12/23/r6nvNT.png)
+![](https://s3.ax1x.com/2020/12/23/r6PQRP.md.png)
 
 	检测到用户输入的email和key后会对email进行格式判断，若正确则向fofa请求验证用户信息，这一步是为了获取用户会员等级为后面其他功能做铺垫，若fofa返回正确信息，则将用户email、key、Vip_level保存到main同级目录下config.ini文件中，以后启动iFofa时程序会自动从config.ini读取用户信息
 
 ### 2.请求参数
 
-![](https://s3.ax1x.com/2020/12/23/r6uSCF.png)
-
-	2.1 请求数量
+	### 2.1 请求数量
 
 		默认为100条，fofa官方推荐每次<=100条，理由是body字段包含内容较多，在实际操作中最好设置为可请求最大数量的整除数，如最多可请求100条的则推荐设置10、20、25、50等，不推荐11、21、26、51等
 		
-	2.2 可选参数
+	### 2.2 可选参数
 
 		官方介绍可选的列表有：host title ip domain port country province city country_name header server protocol banner cert isp as_number as_organization latitude longitude structinfo。
 		
@@ -41,12 +37,13 @@
 
 	请求数量和可选参数设置好后会被记录到config.ini文件中，以后启动iFofa时程序会自动从config.ini请求参数
 
+![](https://s3.ax1x.com/2020/12/23/r6nvNT.png)
+
 ### 3.语法参考
 
 ![](https://s3.ax1x.com/2020/12/23/r6up34.png)
 
 	将官方给的参考给拷贝了下来，方便随时查看
-
 
 #### 0x05 右键功能说明
 
