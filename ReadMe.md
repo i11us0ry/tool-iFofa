@@ -1,15 +1,15 @@
-#iFofa by:i11us0ry
+#### 0x01 iFofa by:i11us0ry
 
-#开发环境：
+#### 0x02 开发环境：
 go version go1.15.3 windows/amd64
 libvcl-2.0.8
 
-#编译
+#### 0x03 编译
 #目前只做了win的，mac的没条件，linux觉得没必要
 main.go目录下执行go build -buildmode=exe
 #有编译好的文件，不想编译的可以直接使用
 
-#菜单功能说明
+#### 0x04菜单功能说明
 1.用户设置
 	检测到用户输入的email和key后会对email进行格式判断，若正确则向fofa请求验证用户信息，这一步是为了获取用户会员等级为后面其他功能做铺垫，若fofa返回正确信息，则将用户email、key、Vip_level保存到main同级目录下config.ini文件中，以后启动iFofa时程序会自动从config.ini读取用户信息
 
@@ -28,7 +28,7 @@ main.go目录下执行go build -buildmode=exe
 	将官方给的参考给拷贝了下来，方便随时查看
 
 
-#右键功能说明
+#### 0x05 右键功能说明
 1.页数跳转
 	#页数说明，fofa请求时除了请求数量、可选参数之外还可以设置请求页数，根据多次实验猜测可请求页数与资产数MaxSize、会员最大请求数Maxnums、及每次请求数量num有关,当然只是个人猜测
 
