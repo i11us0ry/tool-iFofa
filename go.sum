@@ -1,0 +1,14 @@
+github.com/ying32/dylib v0.0.0-20201022102751-7144b101e107 h1:d73rd6q+khiI6V7TbHVZKoCjBGKsKZd2KNrgDq6Pnew=
+github.com/ying32/dylib v0.0.0-20201022102751-7144b101e107/go.mod h1:WPBTfbqg/aA1xqHFPB4fgBHETq/G/75yErbnexmaEOo=
+github.com/ying32/govcl v2.0.9+incompatible h1:HjsVAX2YxJyD6iFzPyCvVBdRsAbAnuTEgIfXHzPBVI0=
+github.com/ying32/govcl v2.0.9+incompatible/go.mod h1:yZVtbJ9Md1nAVxtHKIriKZn4K6TQYqI1en3sN/m9FJ8=
+github.com/ying32/liblclbinres v0.0.0-20210106070124-c1ab35f34f5c h1:c92VqnQKqOE5sJcI5JUTe1Onhwrp8qHuIdr4/DbR0Lg=
+github.com/ying32/liblclbinres v0.0.0-20210106070124-c1ab35f34f5c/go.mod h1:oEmgAOPt+dALMzap3HgEQnaN+iCLE7m3C867jERInaI=
+golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
+golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad h1:DN0cp81fZ3njFcrLCytUHRSUkqBjfTo4Tx9RJTWs0EY=
+golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad/go.mod h1:jdWPYTVW3xRLrWPugEBEK3UY2ZEsg3UU495nc5E+M+I=
+golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
+golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
+golang.org/x/sys v0.0.0-20191026070338-33540a1f6037/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/term v0.0.0-20201117132131-f5c789dd3221/go.mod h1:Nr5EML6q2oocZ2LXRh80K7BxOlk5/8JxuGnuhpl+muw=
+golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=

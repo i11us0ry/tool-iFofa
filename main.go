@@ -2,18 +2,18 @@
 package main
 
 import (
-    "github.com/ying32/govcl/vcl"
-    "./code"
+	"github.com/ying32/govcl/vcl"
+	"ifofa/ui"
 )
 
 func main() {
-    vcl.Application.SetScaled(true)
-    vcl.Application.SetTitle("iFofa")
-    vcl.Application.Initialize()
-    vcl.Application.SetMainFormOnTaskBar(true)
-    vcl.Application.CreateForm(&code.Form1)
-    vcl.Application.CreateForm(&code.Form2)
-    vcl.Application.CreateForm(&code.Form3)
-    vcl.Application.CreateForm(&code.Form5)
-    vcl.Application.Run()
+	//vcl.Application.SetScaled(true)
+	//vcl.Application.SetTitle("iFofa")
+	//vcl.Application.Initialize()
+	//vcl.Application.SetMainFormOnTaskBar(true)
+	//vcl.Application.CreateForm(&ui.Form1)
+	//vcl.Application.CreateForm(&ui.Form2)
+	//vcl.Application.CreateForm(&ui.Form3)
+	//vcl.Application.CreateForm(&ui.Form4)
+	vcl.RunApp(&ui.Form1, &ui.Form2, &ui.Form3, &ui.Form4)
 }
